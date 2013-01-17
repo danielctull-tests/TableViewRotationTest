@@ -16,6 +16,10 @@
 		24BA5CE216A8858200B66F35 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA5CE116A8858200B66F35 /* Default.png */; };
 		24BA5CE416A8858200B66F35 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA5CE316A8858200B66F35 /* Default@2x.png */; };
 		24BA5CE616A8858200B66F35 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA5CE516A8858200B66F35 /* Default-568h@2x.png */; };
+		24BA5CF416A885A700B66F35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BA5CF216A885A700B66F35 /* ViewController.m */; };
+		24BA5CF516A885A700B66F35 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24BA5CF316A885A700B66F35 /* ViewController.xib */; };
+		24BA5CF716A885C100B66F35 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24BA5CF616A885C100B66F35 /* TableViewCell.xib */; };
+		24BA5CFA16A886C000B66F35 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BA5CF916A886C000B66F35 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,12 @@
 		24BA5CE116A8858200B66F35 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		24BA5CE316A8858200B66F35 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		24BA5CE516A8858200B66F35 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		24BA5CF116A885A700B66F35 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24BA5CF216A885A700B66F35 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24BA5CF316A885A700B66F35 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		24BA5CF616A885C100B66F35 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		24BA5CF816A886C000B66F35 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		24BA5CF916A886C000B66F35 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,12 @@
 				24BA5CDE16A8858100B66F35 /* AppDelegate.h */,
 				24BA5CDF16A8858100B66F35 /* AppDelegate.m */,
 				24BA5CD616A8858100B66F35 /* Supporting Files */,
+				24BA5CF116A885A700B66F35 /* ViewController.h */,
+				24BA5CF216A885A700B66F35 /* ViewController.m */,
+				24BA5CF316A885A700B66F35 /* ViewController.xib */,
+				24BA5CF816A886C000B66F35 /* TableViewCell.h */,
+				24BA5CF916A886C000B66F35 /* TableViewCell.m */,
+				24BA5CF616A885C100B66F35 /* TableViewCell.xib */,
 			);
 			path = TableViewRotationTest;
 			sourceTree = "<group>";
@@ -154,6 +170,8 @@
 				24BA5CE216A8858200B66F35 /* Default.png in Resources */,
 				24BA5CE416A8858200B66F35 /* Default@2x.png in Resources */,
 				24BA5CE616A8858200B66F35 /* Default-568h@2x.png in Resources */,
+				24BA5CF516A885A700B66F35 /* ViewController.xib in Resources */,
+				24BA5CF716A885C100B66F35 /* TableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +184,8 @@
 			files = (
 				24BA5CDC16A8858100B66F35 /* main.m in Sources */,
 				24BA5CE016A8858100B66F35 /* AppDelegate.m in Sources */,
+				24BA5CF416A885A700B66F35 /* ViewController.m in Sources */,
+				24BA5CFA16A886C000B66F35 /* TableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
